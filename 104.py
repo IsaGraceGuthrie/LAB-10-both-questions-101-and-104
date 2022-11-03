@@ -4,13 +4,13 @@ r={'flour': 3,'baking soda':1,'unsweetened natural cocoa powder':2,'salt':1/2,'u
 def similar(x,y):
     matches=[]
     for c in l:
-            if c in l:
-                if c in r:
-                    matches.append(c)
-                else:
-                    None
+        if c in l:
+            if c in r:
+                matches.append(c)
             else:
                 None
+        else:
+            None
     print(matches)
 
 similar(l,r)
